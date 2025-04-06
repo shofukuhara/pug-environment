@@ -1,0 +1,9 @@
+node_modules
+dist
+
+# HTML全部（直下もネストもまとめて）
+src/**/*.html
+
+# CSSとそのマップファイル
+src/assets/css/index.css
+src/assets/css/index.css.map

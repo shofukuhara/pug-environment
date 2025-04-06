@@ -1,0 +1,11 @@
+- var page = 'sub'; //metaの出しわけ
+- var PATH_TYPE = "sub"; //パスの出しわけ
+include ../include/config/_config
+include ../include/meta/_data
+
+
+block page
+doctype html
+html(lang="ja")
+  include ../include/config/_head
+  body.p-about(data-page="about")
